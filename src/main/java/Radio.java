@@ -4,7 +4,7 @@ public class Radio {
 
     }
 
-    public String tune(){
-        return "Tuning to Radio 1";
+    public String tune(String station){
+        return "Tuning to " + station;
     }
 }

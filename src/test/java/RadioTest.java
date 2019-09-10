@@ -14,7 +14,9 @@ public class RadioTest {
 
     @Test
     public void canTune() {
-        assertEquals("Tuning to Radio 1", radio.tune());
+        assertEquals("Tuning to Radio 1", radio.tune("Radio 1"));
     }
+
+
 
 }
