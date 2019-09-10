@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ba3e63-e979-475c-907e-06854d2685d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CDPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecordDeck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CDPlayerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RecordDeckTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StereoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Radio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RadioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RadioTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MP3Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IConnect.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/IConnect.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MP3Player.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -162,28 +159,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Component.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -203,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/test/java/RadioTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/StereoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stereo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IConnect.java" />
       </list>
     </option>
   </component>
@@ -279,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in StereoLab">
+  <component name="RunManager" selected="JUnit.MP3PlayerTest">
     <configuration name="All in StereoLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StereoLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -297,12 +280,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CDPlayerTest.canGetNumberOfCDs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MP3PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StereoLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CDPlayerTest" />
-      <option name="METHOD_NAME" value="canGetNumberOfCDs" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="MP3PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -328,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MP3PlayerTest" />
         <item itemvalue="JUnit.All in StereoLab" />
         <item itemvalue="JUnit.RadioTest.canTune" />
         <item itemvalue="JUnit.CDPlayerTest" />
         <item itemvalue="JUnit.RecordDeckTest" />
-        <item itemvalue="JUnit.CDPlayerTest.canGetNumberOfCDs" />
       </list>
     </recent_temporary>
   </component>
@@ -542,8 +524,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IConnect.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MP3Player.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>

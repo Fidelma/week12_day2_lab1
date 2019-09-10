@@ -23,4 +23,8 @@ public class Stereo {
     public String playCDPlayer() {
         return this.cdPlayer.play();
     }
+
+    public String getName() {
+        return this.name;
+    }
 }
